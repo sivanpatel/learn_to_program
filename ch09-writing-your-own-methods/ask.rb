@@ -1,3 +1,12 @@
 def ask question
-  # your code here
+	while true
+	puts question
+	answer = gets.chomp
+		if answer == 'yes'
+			return true
+		end
+		if answer == 'no'
+			return false
+		end
+	end
 end
